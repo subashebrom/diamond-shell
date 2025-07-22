@@ -8,8 +8,9 @@
 @theme{
     --font-Ubuntu: Ubuntu, 'sans-serif';
     --color-mainbg: #000000;
-    --color-primarybg: #1A1A1A;
+    --color-primarybg: #0F1524;
     --color-cardbg: #333333;
     --color-border_clr: #bfbfbf;
     --color-hoverbdr: #00C3FF;
+    --color-btnbg: #1C243A;
 }
