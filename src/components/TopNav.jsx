@@ -32,7 +32,7 @@ const TopNav = () => {
                         <div className="btm-triangle"></div>
                     </div>
                     <div className="top-btn">
-                        <NavLink to='/' className={({isActive}) =>
+                        <NavLink to='/about' className={({isActive}) =>
                             `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
                                 isActive
                                 ? ""
@@ -44,7 +44,7 @@ const TopNav = () => {
                         <div className="btm-triangle"></div>
                     </div>
                     <div className="top-btn">
-                        <NavLink to='/' className={({isActive}) =>
+                        <NavLink to='/contact' className={({isActive}) =>
                             `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
                                 isActive
                                 ? ""
@@ -56,7 +56,7 @@ const TopNav = () => {
                         <div className="btm-triangle"></div>
                     </div>
                     <div className="top-btn">
-                        <NavLink to='/' className={({isActive}) =>
+                        <NavLink to='reviews' className={({isActive}) =>
                             `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
                                 isActive
                                 ? ""
