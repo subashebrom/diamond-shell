@@ -59,31 +59,76 @@ const Bottom = () => {
                     </div>
                     {/* === Social Section === */}
                     <div className="w-full lg:flex lg:flex-col gap-2">
-                        <h1 className="lg:text-xl">Social</h1>
-                        <div className="flex items-center justify-between px-2 py-1 gap-2 lg:text-xl border border-gray-700 rounded-full hover:bg-blue-600 hover:scale-105 transition-all duration-400 dealy-75 ease-in-out">
-                            <span className="lg:text-2xl"><FontAwesomeIcon icon={faFacebook}/></span>
-                            <h2 className="lg:font-semibold lg:text-xl">Facebook</h2>
-                            <span></span>
+                        <h1 className="lg:text-xl text-center">Social</h1>
+                        <div
+                            className="w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
+                            >
+                            <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                                <div className="triangle absolute left-0 top-0"></div>
+                                <div className="triangle-two absolute right-0 top-0"></div>
+                                <div className="triangle-three absolute left-0 bottom-0"></div>
+                                <div className="triangle-four absolute right-0 bottom-0"></div>
+                                <button className="card-btn  w-60 bg-btnbg cursor-pointer py-2">
+                                    <span className="lg:text-xl mr-8" ><FontAwesomeIcon icon={faFacebook}/></span>
+                                    <a href="#">FACEBOOK</a>
+                                </button>
+                            </div>
                         </div>
-                        <div className="flex items-center justify-between px-2 py-1 gap-2 lg:text-xl border border-gray-700 rounded-full hover:bg-red-600 hover:scale-105 transition-all duration-400 dealy-75 ease-in-out">
-                            <span className="lg:text-2xl"><FontAwesomeIcon icon={faYoutube}/></span>
-                            <h2 className="lg:font-semibold lg:text-xl">Youtube</h2>
-                            <span></span>
+                        <div
+                            className="w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
+                            >
+                            <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                                <div className="triangle absolute left-0 top-0"></div>
+                                <div className="triangle-two absolute right-0 top-0"></div>
+                                <div className="triangle-three absolute left-0 bottom-0"></div>
+                                <div className="triangle-four absolute right-0 bottom-0"></div>
+                                <button className="card-btn  w-60 bg-btnbg cursor-pointer py-2">
+                                    <span className="lg:text-xl mr-8" ><FontAwesomeIcon icon={faYoutube}/></span>
+                                    <a href="#">YOUTUBE</a>
+                                </button>
+                            </div>
                         </div>
-                        <div className="flex items-center justify-between px-2 py-1 gap-2 lg:text-xl border border-gray-700 rounded-full hover:bg-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 ease-in-out">
-                            <span className="lg:text-2xl"><FontAwesomeIcon icon={faXTwitter}/></span>
-                            <h2 className="lg:font-semibold lg:text-xl">Twitter</h2>
-                            <span></span>
+                        <div
+                            className="w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
+                            >
+                            <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                                <div className="triangle absolute left-0 top-0"></div>
+                                <div className="triangle-two absolute right-0 top-0"></div>
+                                <div className="triangle-three absolute left-0 bottom-0"></div>
+                                <div className="triangle-four absolute right-0 bottom-0"></div>
+                                <button className="card-btn  w-60 bg-btnbg cursor-pointer py-2">
+                                    <span className="lg:text-xl mr-8" ><FontAwesomeIcon icon={faXTwitter}/></span>
+                                    <a href="#">TWITTER</a>
+                                </button>
+                            </div>
                         </div>
-                        <div className="flex items-center justify-between px-2 py-1 gap-2 lg:text-xl border border-gray-700 rounded-full hover:bg-gradient-to-r from-fuchsia-500 to-purple-600 hover:scale-105 transition-all duration-400 dealy-75 ease-in-out">
-                            <span className="lg:text-2xl"><FontAwesomeIcon icon={faInstagram}/></span>
-                            <h2 className="lg:font-semibold lg:text-xl">Instagram</h2>
-                            <span></span>
+                        <div
+                            className="w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
+                            >
+                            <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                                <div className="triangle absolute left-0 top-0"></div>
+                                <div className="triangle-two absolute right-0 top-0"></div>
+                                <div className="triangle-three absolute left-0 bottom-0"></div>
+                                <div className="triangle-four absolute right-0 bottom-0"></div>
+                                <button className="card-btn  w-60 bg-btnbg cursor-pointer py-2">
+                                    <span className="lg:text-xl mr-8" ><FontAwesomeIcon icon={faInstagram}/></span>
+                                    <a href="#">INSTAGRAM</a>
+                                </button>
+                            </div>
                         </div>
-                        <div className="flex items-center justify-between px-2 py-1 gap-2 lg:text-xl border border-gray-700 rounded-full hover:bg-yellow-400 hover:scale-105 transition-all duration-400 dealy-75 ease-in-out">
-                            <span className="lg:text-2xl"><FontAwesomeIcon icon={faSnapchat}/></span>
-                            <h2 className="lg:font-semibold lg:text-xl">Snapchat</h2>
-                            <span></span>
+                        <div
+                            className="w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
+                            >
+                            <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                                <div className="triangle absolute left-0 top-0"></div>
+                                <div className="triangle-two absolute right-0 top-0"></div>
+                                <div className="triangle-three absolute left-0 bottom-0"></div>
+                                <div className="triangle-four absolute right-0 bottom-0"></div>
+                                <button className="card-btn  w-60 bg-btnbg cursor-pointer py-2">
+                                    <span className="lg:text-xl mr-8" ><FontAwesomeIcon icon={faSnapchat}/></span>
+                                    <a href="#">SNAPCHAP</a>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </section>

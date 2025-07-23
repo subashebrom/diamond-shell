@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router';
-
+import "../css/TopNav.css"
 
 const TopNav = () => {
     return (
@@ -18,49 +18,69 @@ const TopNav = () => {
                         DIAMOND
                     </NavLink>
                 </div>
-                <div className='lg:flex text-white lg:gap-7'>
-                    <NavLink to='/' className={({isActive}) =>
-                        `group transition-all duration-150 delay-75 ease-in-out lg:text-lg ${
-                            isActive
-                            ? "text-hoverbdr border-b-2"
-                            : "hover:text-hoverbdr hover:border-b-2"
-                        }`}>
-                        Home
-                    </NavLink>
-                    <NavLink to='/about' className={({isActive}) =>
-                        `group transition-all duration-150 delay-75 ease-in-out lg:text-lg ${
-                            isActive
-                            ? "text-hoverbdr border-b-2"
-                            : "hover:text-hoverbdr hover:border-b-2"
-                        }`}>
-                        About
-                    </NavLink>
-                    <NavLink to='/contact' className={({isActive}) =>
-                        `group transition-all duration-150 delay-75 ease-in-out lg:text-lg ${
-                            isActive
-                            ? "text-hoverbdr border-b-2"
-                            : "hover:text-hoverbdr hover:border-b-2"
-                        }`}>
-                        Contact
-                    </NavLink>
-                    <NavLink to='/reviews' className={({isActive}) =>
-                        `group transition-all duration-150 delay-75 ease-in-out lg:text-lg ${
-                            isActive
-                            ? "text-hoverbdr border-b-2"
-                            : "hover:text-hoverbdr hover:border-b-2"
-                        }`}>
-                        Customer Reviews
-                    </NavLink>
+                <div className='lg:flex text-white lg:gap-8'>
+                    <div className="top-btn">
+                        <NavLink to='/' className={({isActive}) =>
+                            `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
+                                isActive
+                                ? ""
+                                : ""
+                            }`}>
+                            Home
+                        </NavLink>
+                        <div className="top-triangle"></div>
+                        <div className="btm-triangle"></div>
+                    </div>
+                    <div className="top-btn">
+                        <NavLink to='/' className={({isActive}) =>
+                            `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
+                                isActive
+                                ? ""
+                                : ""
+                            }`}>
+                            About
+                        </NavLink>
+                        <div className="top-triangle"></div>
+                        <div className="btm-triangle"></div>
+                    </div>
+                    <div className="top-btn">
+                        <NavLink to='/' className={({isActive}) =>
+                            `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
+                                isActive
+                                ? ""
+                                : ""
+                            }`}>
+                            Contact
+                        </NavLink>
+                        <div className="top-triangle"></div>
+                        <div className="btm-triangle"></div>
+                    </div>
+                    <div className="top-btn">
+                        <NavLink to='/' className={({isActive}) =>
+                            `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
+                                isActive
+                                ? ""
+                                : ""
+                            }`}>
+                            Reviews
+                        </NavLink>
+                        <div className="top-triangle"></div>
+                        <div className="btm-triangle"></div>
+                    </div>
                 </div>
                 <div className='text-white'>
-                    <NavLink to='/registration' className={({isActive}) =>
-                        `group transition-all duration-150 delay-75 ease-in-out lg:text-lg ${
-                            isActive
-                            ? "text-hoverbdr border-b-2"
-                            : "hover:text-hoverbdr hover:border-b-2"
-                        }`}>
-                        Registration
-                    </NavLink>
+                    <div className="top-btn">
+                        <NavLink to='/' className={({isActive}) =>
+                            `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
+                                isActive
+                                ? ""
+                                : ""
+                            }`}>
+                            Registration
+                        </NavLink>
+                        <div className="rtop-triangle"></div>
+                        <div className="rbtm-triangle"></div>
+                    </div>
                 </div>
             </div>
         </div>
