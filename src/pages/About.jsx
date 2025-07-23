@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import "../css/About.css";
+
 
 const About = () => {
     return (
