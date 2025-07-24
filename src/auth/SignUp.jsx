@@ -5,10 +5,11 @@ import { NavLink } from 'react-router';
 const SignUp = () => {
     return (
         <div className='lg:w-full bg-mainbg lg:h-screen lg:mt-12 font-Ubuntu'>
-            <section className='log-bgbox lg:w-[80%] lg:h-screen mx-auto border-r border-r-gray-700 border-l border-l-gray-700 justify-items-center'>
-                <h1 className='lg:text-3xl text-gray-300 font-black text-center pt-12 pb-1'>WelCome</h1>
-                <p className='lg:text-gray-300 text-center lg:text-lg lg:mb-8'>Please Enter Your Details</p>
-                    <div className='sign-up-box w-[50%] mt-28'>
+            <section className='log-bgbox lg:w-[1296px] lg:h-screen mx-auto border-r border-r-gray-700 border-l border-l-gray-700 justify-items-center'>
+                <div className='min-w-[1200px]'>
+                    <h1 className='lg:text-3xl text-gray-300 font-black text-center pt-12 pb-1'>WelCome</h1>
+                    <p className='lg:text-gray-300 text-center lg:text-lg lg:mb-8'>Please Enter Your Details</p>
+                    <div className='sign-up-box w-[50%] mt-28 mx-auto'>
                         <div className='relative loginCard lg:w-[100%] lg:h-[55%] bg-primarybg mx-auto flex flex-col gap-6 items-center justify-center p-2'>
                             <h1 className='lg:text-2xl font-bold text-gray-300'>Sign Up</h1>
                             <div className='log-first-box w-full'>
@@ -39,6 +40,7 @@ const SignUp = () => {
                         <div className="logt-triangle"></div>
                         <div className="logb-triangle"></div>
                     </div>
+                </div>
             </section>
         </div>
     );

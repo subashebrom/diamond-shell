@@ -17,6 +17,7 @@ import PubgMobile from "../pages/PubgMobile";
 import CallOfDuty from "../pages/CallOfDuty";
 import Valorant from "../pages/Valorant";
 import ApexLegend from "../pages/ApexLegend";
+import FreeFireDiamond from "../pages/FreeFireDiamond";
 
 const MainRoutes = createBrowserRouter ([
     {
@@ -90,6 +91,10 @@ const MainRoutes = createBrowserRouter ([
             {
                 path: '/apex-legend',
                 element: <ApexLegend/>
+            },
+            {
+                path: '/free-fire-daiomond',
+                element: <FreeFireDiamond/>
             },
         ]
     }

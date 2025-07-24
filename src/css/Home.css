@@ -12,6 +12,9 @@
     0 16%
   );
 }
+.card:hover{
+  border: 8px solid #00c3ff73;
+}
 img {
   clip-path: polygon(
     10% 0,

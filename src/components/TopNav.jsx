@@ -1,11 +1,10 @@
 import { NavLink } from 'react-router';
 import "../css/TopNav.css"
-import "../js/TopNav.js"
 
 const TopNav = () => {
     return (
         <div className='fixed top-0 lg:w-full bg-mainbg font-Ubuntu border-b border-b-gray-700 z-10'>
-            <div className='lg:flex lg:w-[80%] topActiveBtn relative mx-auto flex items-center justify-between border-r border-r-gray-700 border-l border-l-gray-700 py-2 px-8'>
+            <div className='lg:flex lg:w-[1296px] topactiveBtn relative mx-auto flex items-center justify-between border-r border-r-gray-700 border-l border-l-gray-700 py-2 px-8'>
                 {/* === DIAMOND === */}
                 <div className="absolute bottom-0 -right-5 size-10 z-80">
                     <img src="/image/diamond.png" alt="" />

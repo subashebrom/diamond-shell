@@ -6,7 +6,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
     return (
         <div className="lg-w-full h-fit text-white mt-12 bg-mainbg font-Ubuntu">
-            <section className="lg:w-[80%] mx-auto justify-items-center bg-primarybg border-r border-r-gray-700 border-l border-l-gray-700">
+            <section className="lg:w-[1296px] mx-auto justify-items-center bg-primarybg border-r border-r-gray-700 border-l border-l-gray-700">
                 <div className="pt-12 pb-4">
                     <div className="home-search-first-box relative">
                         <div className="home-search-second-box">

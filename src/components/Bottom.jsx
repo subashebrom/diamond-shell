@@ -7,7 +7,7 @@ import { NavLink } from "react-router";
 const Bottom = () => {
     return (
         <div className="w-full h-auto text-white bg-mainbg font-Ubuntu">
-            <footer className="relative w-[80%] mx-auto border-r border-r-gray-700 border-l border-l-gray-700 px-8 border-t border-t-gray-700 py-12">
+            <footer className="relative w-[1296px] mx-auto border-r border-r-gray-700 border-l border-l-gray-700 px-8 border-t border-t-gray-700 py-12">
                 {/* === DIAMOND === */}
                 <div className="absolute -top-10 -right-5 size-10 z-80">
                     <img src="/image/diamond.png" alt="" />
