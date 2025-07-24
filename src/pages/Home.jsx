@@ -21,7 +21,7 @@ const Home = () => {
                 <div></div>
                 {/* === CARDS SECTION === */}
                 <div className="w-full px-4 py-4 lg:grid lg:grid-cols-4 gap-6 text-white">
-                    <NavLink to=''
+                    <NavLink to='/free-fire'
                         className="card w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />

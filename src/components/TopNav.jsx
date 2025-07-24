@@ -70,12 +70,13 @@ const TopNav = () => {
                 </div>
                 <div className='text-white'>
                     <div className="top-btn">
-                        <NavLink to='/' className={({isActive}) =>
+                        <NavLink to='/signup' className={({isActive}) =>
                             `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
                                 isActive
                                 ? ""
                                 : ""
                             }`}>
+                            {/* After signing up, the registration will be (Registered). */}
                             Registration
                         </NavLink>
                         <div className="rtop-triangle"></div>

@@ -9,6 +9,14 @@ import About from './../pages/About';
 import Contact from './../pages/Contact';
 import CustomerReview from "../pages/CustomerReview";
 import Registration from "../pages/Registration";
+import PrivecyPolicy from "../pages/PrivecyPolicy";
+import RefundPolicy from "../pages/RefundPolicy";
+import TermsCond from "../pages/TermsCond";
+import FreeFire from "../pages/FreeFire";
+import PubgMobile from "../pages/PubgMobile";
+import CallOfDuty from "../pages/CallOfDuty";
+import Valorant from "../pages/Valorant";
+import ApexLegend from "../pages/ApexLegend";
 
 const MainRoutes = createBrowserRouter ([
     {
@@ -50,6 +58,38 @@ const MainRoutes = createBrowserRouter ([
             {
                 path:'/signup',
                 element: <SignUp/>
+            },
+            {
+                path: '/privecy-policy',
+                element: <PrivecyPolicy/>
+            },
+            {
+                path: '/refund-policy',
+                element: <RefundPolicy/>
+            },
+            {
+                path: '/terms-condition',
+                element: <TermsCond/>
+            },
+            {
+                path: '/free-fire',
+                element: <FreeFire/>
+            },
+            {
+                path: '/pubg-mobile',
+                element: <PubgMobile/>
+            },
+            {
+                path: '/call-of-duty',
+                element: <CallOfDuty/>
+            },
+            {
+                path: '/valorant',
+                element: <Valorant/>
+            },
+            {
+                path: '/apex-legend',
+                element: <ApexLegend/>
             },
         ]
     }

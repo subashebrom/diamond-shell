@@ -46,13 +46,13 @@ const Bottom = () => {
                     <div className="lg:grid">
                         <h1 className="lg:text-xl">Security</h1>
                         <div className="grid mt-1">
-                            <NavLink to='' className="lg:text-lg hover:text-hoverbdr transition-all duration-200 delay-75 ease-in-out">
+                            <NavLink to='/privecy-policy' className="lg:text-lg hover:text-hoverbdr transition-all duration-200 delay-75 ease-in-out">
                                 Privecy Policy
                             </NavLink>
-                            <NavLink to='' className="lg:text-lg hover:text-hoverbdr transition-all duration-200 delay-75 ease-in-out">
+                            <NavLink to='/refund-policy' className="lg:text-lg hover:text-hoverbdr transition-all duration-200 delay-75 ease-in-out">
                                 Refund Policy
                             </NavLink>
-                            <NavLink to='' className="lg:text-lg hover:text-hoverbdr transition-all duration-200 delay-75 ease-in-out">
+                            <NavLink to='/terms-condition' className="lg:text-lg hover:text-hoverbdr transition-all duration-200 delay-75 ease-in-out">
                                Terms and Conditions
                             </NavLink>
                         </div>

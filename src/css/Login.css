@@ -1,0 +1,99 @@
+.loginCard {
+  border: 8px solid #1c243a;
+  clip-path: polygon(
+    10% 0,
+    95% 0,
+    100% 0%,
+    100% 84%,
+    90% 100%,
+    0 100%,
+    0 100%,
+    0 16%
+  );
+}
+.log-inpt {
+  background-color: black;
+  clip-path: polygon(3% 0, 100% 0, 100% 60%, 97% 100%, 0 100%, 0 40%);
+}
+.log-btn {
+  background-color: black;
+  clip-path: polygon(10% 0, 100% 0, 100% 60%, 90% 100%, 0 100%, 0 40%);
+}
+.log-first-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  clip-path: polygon(0% 100, 100% 0, 100% 60%, 90% 100%, 0 100%, 0 40%);
+}
+.log-snd-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b3550;
+  clip-path: polygon(100% 0, 100% 100%, 1.5% 100%, 0 90%, 0 0);
+}
+.log-snd-box:hover {
+  background-color: #00c3ff73;
+}
+.sign-up-box {
+  position: relative;
+}
+.sign-up-box:hover{
+    .logt-triangle, .logb-triangle{
+        visibility: visible;
+    }
+}
+.logt-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: ease-in-out 0.3s;
+  width: 150px;
+  height: 51px;
+  background-color: #2b3550;
+  border: 8px solid #00c3ff73;
+  clip-path: polygon(30% 0, 0 0, 0 100%);
+  visibility: hidden;
+}
+.logb-triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: ease-in-out 0.3s;
+  width: 150px;
+  height: 51px;
+  background-color: #2b3550;
+  border: 8px solid #00c3ff73;
+  clip-path: polygon(100% 100%, 100% 0, 70% 100%);
+  visibility: hidden;
+}
+.sign-up-box:hover{
+    .logtt-triangle, .logbt-triangle{
+        visibility: visible;
+    }
+}
+.logtt-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: ease-in-out 0.3s;
+  width: 150px;
+  height: 43px;
+  background-color: #2b3550;
+  border: 8px solid #00c3ff73;
+  clip-path: polygon(30% 0, 0 0, 0 100%);
+  visibility: hidden;
+}
+.logbt-triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: ease-in-out 0.3s;
+  width: 150px;
+  height: 43px;
+  background-color: #2b3550;
+  border: 8px solid #00c3ff73;
+  clip-path: polygon(100% 100%, 100% 0, 70% 100%);
+  visibility: hidden;
+}
