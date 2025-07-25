@@ -59,7 +59,29 @@ const FreeFire = () => {
                         <div className="flag absolute w-full top-0 flex items-center justify-center bg-white/60">
                             <img className="size-10" src="/src/assets/image/nepal-flag.png" alt="" />
                             <h2 className="lg:text-xl text-[#2b3550]"> 
-                             Nepal</h2>
+                             India</h2>
+                        </div>
+                        <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
+                            <h2>Coming Soon</h2>
+                        </div>
+                    </NavLink>
+                                        <NavLink to=''
+                        className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
+                        >
+                        <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                            <div className="triangle absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <button className="card-btn w-60 bg-btnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </button>
+                        </div>
+                        <div className="flag absolute w-full top-0 flex items-center justify-center bg-white/60">
+                            <img className="size-10" src="/src/assets/image/pakistan-flag.png" alt="" />
+                            <h2 className="lg:text-xl text-[#2b3550]"> 
+                             Pakistan</h2>
                         </div>
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
@@ -123,31 +145,9 @@ const FreeFire = () => {
                             </button>
                         </div>
                         <div className="flag absolute w-full top-0 flex items-center justify-center bg-white/60">
-                            <img className="size-10" src="/src/assets/image/nepal-flag.png" alt="" />
-                            <h2 className="lg:text-xl text-[#2b3550]"> 
-                             Nepal</h2>
-                        </div>
-                        <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
-                            <h2>Coming Soon</h2>
-                        </div>
-                    </NavLink>
-                    <NavLink to=''
-                        className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
-                        >
-                        <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
-                        <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
-                            <div className="triangle absolute left-0 top-0"></div>
-                            <div className="triangle-two absolute right-0 top-0"></div>
-                            <div className="triangle-three absolute left-0 bottom-0"></div>
-                            <div className="triangle-four absolute right-0 bottom-0"></div>
-                            <button className="card-btn w-60 bg-btnbg cursor-pointer">
-                                <h2 className="py-2">FREE FIRE</h2>
-                            </button>
-                        </div>
-                        <div className="flag absolute w-full top-0 flex items-center justify-center bg-white/60">
                             <img className="size-10" src="/src/assets/image/russia-flag.png" alt="" />
                             <h2 className="lg:text-xl text-[#2b3550]"> 
-                             Russia</h2>
+                             Dubai</h2>
                         </div>
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
@@ -189,9 +189,9 @@ const FreeFire = () => {
                             </button>
                         </div>
                         <div className="flag absolute w-full top-0 flex items-center justify-center bg-white/60">
-                            <img className="size-10" src="/src/assets/image/pakistan-flag.png" alt="" />
+                            <img className="size-10" src="/src/assets/image/malaysia-flag.png" alt="" />
                             <h2 className="lg:text-xl text-[#2b3550]"> 
-                             Pakistan</h2>
+                            Singapur</h2>
                         </div>
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>

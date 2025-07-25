@@ -207,7 +207,7 @@ const FreeFireDiamond = () => {
                                     <img className='size-8' src="/src/assets/image/monthly.png" alt="" />
                                 </span>
                         </div>
-                        <div className='absolute w-full z-10 hidden bg-pcbg border border-gray-600 text-white/80'>
+                        <div className='absolute w-full z-10  bg-pcbg border border-gray-600 text-white/80'>
                             <div className='flex items-center justify-between p-1'>
                                 <p className='lg:text-sm'>Monthly Pass
                                     <p className='lg:text-sm'><FontAwesomeIcon icon={faBangladeshiTakaSign}/> 150 TK</p>
