@@ -5,8 +5,8 @@ import { NavLink } from 'react-router';
 
 const FreeFireDiamond = () => {
     return (
-        <div className='lg:w-full bg-mainbg lg:h-screen lg:mt-12 font-Ubuntu'>
-            <section className='lg:w-[1296px] lg:h-screen bg-primarybg border-r border-r-gray-700 border-l border-l-gray-700 mx-auto justify-items-center lg:pt-8 text-white p-2'>
+        <div className='lg:w-full bg-mainbg lg:h-auto lg:mt-12 font-Ubuntu'>
+            <section className='lg:w-[1296px] lg:h-auto bg-primarybg border-r border-r-gray-700 border-l border-l-gray-700 mx-auto justify-items-center lg:pt-8 text-white p-2'>
                 <NavLink to='/free-fire'>
                     <div
                     className="w-full text-center hover:text-hoverbdr transition-all duration-400 dealy-75 hover:w-full ease-in-out justify-items-center lg:mb-4"
@@ -207,7 +207,7 @@ const FreeFireDiamond = () => {
                                     <img className='size-8' src="/src/assets/image/monthly.png" alt="" />
                                 </span>
                         </div>
-                        <div className='absolute w-full z-10  bg-pcbg border border-gray-600 text-white/80'>
+                        <div className='absolute w-full z-10 hidden bg-pcbg border border-gray-600 text-white/80'>
                             <div className='flex items-center justify-between p-1'>
                                 <p className='lg:text-sm'>Monthly Pass
                                     <p className='lg:text-sm'><FontAwesomeIcon icon={faBangladeshiTakaSign}/> 150 TK</p>
@@ -289,14 +289,64 @@ const FreeFireDiamond = () => {
                     </div>
                 </div>
                 {/* ==== User ID Confirmation Section === */}
-                <div className='lg:w-full lg:grid lg:grid-cols-2 lg:gap-5 mt-8 '>
+                <div className='lg:w-full lg:grid lg:grid-cols-2 lg:gap-5 mt-8 mb-8 '>
                     {/* === Details Section === */}
                     <div className='details-box lg:w-full border border-gray-700 flex items-center justify-center'>
                         <h1 className='text-center'>Details</h1>
                     </div>
                     {/* === Play User ID Section === */}
-                    <div className='lg:w-full  border border-gray-700 flex items-center justify-center'>
-                        user id
+                    <div className='userSection lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
+                        <h1 className='lg:w-full lg:text-2xl lg:font-semibold text-center text-white/75'>Enter Your User ID</h1>
+                        <div className='w-full lg:grid lg:grid-cols-2 gap-2 mt-4'>
+                            {/* === Input User ID === */}
+                            <div className='userInpt w-full bg-primarybg text-white/70 hover:inset-shadow-sm hover:inset-shadow-gray-100/40 transition-all duration-300 delay-75 ease-in-out'>
+                                <input className='w-full outline-none p-2' type="text"placeholder='Enter Your Game User ID' />
+                            </div>
+                            {/* === Checking User ID === */}
+                            <div className='userInpt w-full bg-primarybg text-white/70 hover:inset-shadow-sm hover:inset-shadow-green-100/40 transition-all duration-300 delay-75 ease-in-out'>
+                                {/* === After entering the user ID, the text Searching for your game ID will appear. If the game ID is found, it will show that name, and a tick mark will appear. (or not Matched your user id) === */}
+                                <p className='w-full outline-none text-green-600 p-2' >Subas Hebrom </p>
+                            </div>
+                        </div>
+                        <div className='w-full text-end mt-4 mb-4'>
+                            <button className='buyBtn bg-primarybg px-4 py-1 lg:text-lg text-white/70' type='submit'>Confirm</button>
+                        </div>
+                        {/* === Order Details Section === */}
+                        <div className='w-full border border-gray-600 p-1 mb-4'>
+                            <h1 className='text-center text-white/70 text-2xl font-semibold mb-2 mt-2'>Order Billing Details</h1>
+                            <div className='orderCard w-full bg-primarybg p-4'>
+                                <div className='lg:flex lg:items-start lg:justify-between text-white/70 items-center'>
+                                    <div className='lg:flex items-center'>
+                                        <p>5,000 Diamonds</p>
+                                    </div>
+                                    <p>Bangladesh Server</p>
+                                    <div>
+                                        <p>2189788657</p>
+                                        <p>Subas Hebrom</p>
+                                    </div>
+                                </div>
+                                <hr  className='mt-2 text-gray-500'/>
+                                <div className='lg:flex lg:items-center lg:justify-between text-white/70 mt-2'>
+                                    <p className='lg:text-md'> <FontAwesomeIcon className='mr-1' icon={faBangladeshiTakaSign}/>3,100 tk</p>
+                                    <div className='relative flex lg:gap-2'>
+                                        <p className='bg-red-500 w-8 text-center text-xl'>-</p>
+                                        <p>2X</p>
+                                        <p className='bg-green-700 w-8 text-center text-xl'>+</p>
+                                        <div className='absolute bg-pcbg p-1 right-0 -bottom-10'>
+                                            <p className='flex gap-1.5'>10,000 <img className='size-5' src="/public/image/diamond.png" alt="" /></p>
+                                        </div>
+                                    </div>
+                                    <p> <FontAwesomeIcon className='mr-1' icon={faBangladeshiTakaSign}/> 6,200 TK</p>
+                                </div>
+                                <hr  className='mt-2 text-gray-500'/>
+                                <div className='text-end text-white/70 mt-2'>
+                                    <h2>Total: <FontAwesomeIcon className='mr-1' icon={faBangladeshiTakaSign}/> 6,200 TK </h2>
+                                </div>
+                            </div>
+                            <div className='w-full text-end mt-4 mb-4'>
+                                <button className='buyBtn bg-primarybg px-4 py-1 lg:text-lg text-white/70' type='submit'>Buy Now</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
