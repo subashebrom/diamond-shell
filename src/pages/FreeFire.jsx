@@ -1,4 +1,4 @@
-import { faGamepad } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faGamepad } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from 'react-router';
 
@@ -6,18 +6,19 @@ const FreeFire = () => {
     return (
         <div className="lg:w-full bg-mainbg lg:h-screen lg:mt-12 font-Ubuntu">
             <section className="lg:w-[1296px] lg:h-screen bg-primarybg border-r border-r-gray-700 border-l border-l-gray-700 mx-auto justify-items-center lg:pt-8 text-white">
-                <div className=" pb-4">
-                    <div className="home-search-first-box relative">
+                <NavLink to='/' className="flex">
+                    <div className=" pb-4">
+                    <div className="home-search-first-box ">
                         <div className="home-search-second-box">
-                            <div className="home-search-box flex items-center lg:text-md outline-none px-2" >
+                            <div className="home-search-box flex items-center text-center justify-between lg:text-md outline-none px-2" >
+                                <span><FontAwesomeIcon icon={faChevronLeft}/></span>
                                 <h1>Choose Your Game Server</h1>
+                                <span><FontAwesomeIcon icon={faGamepad}/></span>
                             </div>
                         </div>
-                            <span className="search-icon absolute right-5 cursor-pointer">
-                                <FontAwesomeIcon icon={faGamepad}/>
-                            </span>
                     </div>
                 </div>
+                </NavLink>
                 {/* === Card Section === */}
                 <div className="w-full px-4 py-4 lg:grid lg:grid-cols-4 gap-6 text-white">
                     <NavLink to='/free-fire-daiomond'

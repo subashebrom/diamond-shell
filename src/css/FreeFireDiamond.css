@@ -26,3 +26,38 @@
 .diamond-second-box:hover {
   background-color: #00c3ff73;
 }
+
+.country-BTN {
+  width: 400px;
+  height: 60px;
+  clip-path: polygon(53% 100%,50% 85%,47% 100%,5% 100%,0 50%,5% 0,47% 0,50% 10%,53% 0,95% 0,100% 50%,95% 100%);
+  margin-bottom: 10px;
+}
+.country-triangle-One {
+  width: 63px;
+  height: 23px;
+  background: #1c243a;
+  border: 1px solid #00c3ff73;
+  clip-path: polygon(25% 0, 0 0, 0 100%);
+}
+.country-triangle-two {
+  width: 42px;
+  height: 23px;
+  background: #1c243a;
+  border: 1px solid #00c3ff73;
+  clip-path: polygon(63% 0, 100% 0, 100% 100%);
+}
+.country-triangle-three {
+  width: 63px;
+  height: 23px;
+  background: #1c243a;
+  border: 1px solid #00c3ff73;
+  clip-path: polygon(23% 100%, 0 100%, 0 0);
+}
+.country-triangle-four {
+  width: 42px;
+  height: 23px;
+  background: #1c243a;
+  border: 1px solid #00c3ff73;
+  clip-path: polygon(63% 100%, 100% 100%, 100% 0);
+}
