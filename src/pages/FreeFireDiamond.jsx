@@ -155,7 +155,7 @@ const FreeFireDiamond = () => {
                                 </span>
                         </div>
                     </div>
-                    <div className="pt-1">
+                    <div className="relative pt-1">
                         <div className="diamond-first-box relative">
                             <div className="diamond-second-box">
                                 <div className="diamond-third-box lg:text-md outline-none">
@@ -167,8 +167,35 @@ const FreeFireDiamond = () => {
                                     <img className='size-8' src="/src/assets/image/Weekly.png" alt="" />
                                 </span>
                         </div>
+                        <div className='absolute w-full z-10 hidden bg-pcbg border border-gray-600 text-white/80'>
+                            <div className='flex items-center justify-between p-1'>
+                                <p className='lg:text-sm'>Weekly Pass
+                                    <p className='lg:text-sm'><FontAwesomeIcon icon={faBangladeshiTakaSign}/> 150 TK</p>
+                                </p>
+                                <p className='lg:text-sm'>1</p>
+                                {/* === Increment and Decrement Button === */}
+                                <div className='flex items-center justify-between gap-1'>
+                                    <p className='bg-red-500 w-8 text-center'>-</p>
+                                    <p className='bg-green-700 w-8 text-center'>+</p>
+                                </div>
+                            </div>
+                            <hr className='text-gray-500' />
+                            <div className='flex items-center justify-between p-1'>
+                                <p className='text-sm'>Total: 150 Tk</p>
+                                <div>
+                                    <div class="form-check">
+                                        <input class="form-check-input text-sm" type="checkbox" name="" id="cancel" />
+                                        <label class="form-check-label text-sm" for="cancel"> Cancel </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input text-sm" type="checkbox" name="" id="confirm" />
+                                        <label class="form-check-label text-sm" for="confirm"> Confirm </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="pt-1">
+                    <div className="relative pt-1">
                         <div className="diamond-first-box relative">
                             <div className="diamond-second-box">
                                 <div className="diamond-third-box lg:text-md outline-none">
@@ -179,6 +206,33 @@ const FreeFireDiamond = () => {
                                 <span className="search-icon absolute right-5 cursor-pointer">
                                     <img className='size-8' src="/src/assets/image/monthly.png" alt="" />
                                 </span>
+                        </div>
+                        <div className='absolute w-full z-10 hidden bg-pcbg border border-gray-600 text-white/80'>
+                            <div className='flex items-center justify-between p-1'>
+                                <p className='lg:text-sm'>Monthly Pass
+                                    <p className='lg:text-sm'><FontAwesomeIcon icon={faBangladeshiTakaSign}/> 150 TK</p>
+                                </p>
+                                <p className='lg:text-sm'>1</p>
+                                {/* === Increment and Decrement Button === */}
+                                <div className='flex items-center justify-between gap-1'>
+                                    <p className='bg-red-500 w-8 text-center'>-</p>
+                                    <p className='bg-green-700 w-8 text-center'>+</p>
+                                </div>
+                            </div>
+                            <hr className='text-gray-500' />
+                            <div className='flex items-center justify-between p-1'>
+                                <p className='text-sm'>Total: 7600 Tk</p>
+                                <div>
+                                    <div class="form-check">
+                                        <input class="form-check-input text-sm" type="checkbox" name="" id="cancel" />
+                                        <label class="form-check-label text-sm" for="cancel"> Cancel </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input text-sm" type="checkbox" name="" id="confirm" />
+                                        <label class="form-check-label text-sm" for="confirm"> Confirm </label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="pt-1">
@@ -232,6 +286,17 @@ const FreeFireDiamond = () => {
                                     <img className='size-8' src="/src/assets/image/evo.png" alt="" />
                                 </span>
                         </div>
+                    </div>
+                </div>
+                {/* ==== User ID Confirmation Section === */}
+                <div className='lg:w-full lg:grid lg:grid-cols-2 lg:gap-5 mt-8 '>
+                    {/* === Details Section === */}
+                    <div className='details-box lg:w-full border border-gray-700 flex items-center justify-center'>
+                        <h1 className='text-center'>Details</h1>
+                    </div>
+                    {/* === Play User ID Section === */}
+                    <div className='lg:w-full  border border-gray-700 flex items-center justify-center'>
+                        user id
                     </div>
                 </div>
             </section>
