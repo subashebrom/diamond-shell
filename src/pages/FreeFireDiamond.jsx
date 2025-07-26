@@ -304,13 +304,27 @@ const FreeFireDiamond = () => {
                         </div>
                         <div className='mt-4 lg:min-h-[380px] overflow-y-auto w-[600px] bg-primarybg'>
                             {/* === Payments Methode Details === */}
-                          <div className=''>
-                            <h1>Payment Methode</h1>
-                            <p>১<span>*</span> আপনার প্যাকেজ টি নির্বাচন করুন।</p>
-                            <p>২<span>*</span> আপনার গেমের ইউজার আইডি নাম্বার গেম থেকে কপি করে আনুন।</p>
-                            <p>৩<span>*</span> আপনার গেমের ইউজার আইডি নাম্বার পেস্ট করুন।</p>
-                            <p>৪<span>*</span> ইউজার আইডি নাম্বার ঠিক থাকলে পাশে আপনার গেমের নামটি দেখাবে</p>
-
+                          <h1>Payment Methode (Step 1)</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span> শুধুমাত্র Bangladesh সার্ভারে Top Up হবে।</p>
+                            <p>২<span>*</span> অর্ডার করার সাথে সাথে ডেলিভারি দেয়া হবে। ব্যতিক্রম বসত নির্ধারিত সম্যের মধ্যে ডেলিভারি না পেলে অনুগ্রহ করে আমাদের Support Center Massage দিবেন।</p>
+                            <p>৩<span>*</span> User ID ভুল দিয়ে (নিজেস্ব ভুলের কারণে) Diamond না পেলে কর্তৃপক্ষ দায় ভার নিবে না।</p>
+                            <p>৪<span>*</span> Order কমপ্লিট হওয়ার পরেও আইডিতে Daimond যায়নি, এ রকম কিছু দাবি করলে, কর্তৃপক্ষ চেক করতে বাধ্য থাকিবে (সত্যতা যাচাই করার জন্য,আপনাকে প্রথমে Game Lobby  বা Diamond Section এর স্ক্রিনশট দিতে বাধ্য থাকিতে হবে, দ্বিতীয়ত Game Profile এর স্ক্রিনশট তৃতীয়ত আপনার Game ID Pass(বাধ্যতামূলক)। আপনি ভুল প্রমানিত হলে কর্তৃপক্ষ আপনার Aginst এ যেকোনো ধরনের Statement নিতে পারে।)</p>
+                            <div className='flex w-full items-center justify-between gap-3 mt-2 mb-2'>
+                                <img className='border border-gray-500 size-40 ' src="/src/assets/image/diamond.png" alt="" />
+                                <img className='border border-gray-500 size-40 ' src="/src/assets/image/diamond.png" alt="" />
+                                <img className='border border-gray-500 size-40 ' src="/src/assets/image/diamond.png" alt="" />
+                            </div>
+                            <p>৫<span>*</span> সাধারণত ১০ মিনিটের ভিতরে Order Complete করা হয়। সর্বোচ্চ ১ ঘন্টা সময় লাগতে পারে।</p>
+                            <p>৬<span>*</span> ১ ঘন্টার বেশি সময় অতিক্রম হলে Support Team সাথে যোগাযোগ করবেন।</p>
+                          </div>
+                          <h1>Rules (Step 8)</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span> Buy Now Click করুন ।</p>
+                            <p>২<span>*</span> আপনার Payment Methode টি সিলেক্ট করুন। (বিকাশ, নগদ, রকেট)।</p>
+                            <p>৩<span>*</span> বিকাশ , নগদ অথবা রকেট (এর নাম্বার দিন)।</p>
+                            <p>৪<span>*</span> আপনার পিন কোড টি দিন।</p>
+                            <p>৫<span>*</span> আপনার নাম্বারে OTP Code যাবে তা বসিয়ে দিন বা (Allow করে দিন) ।</p>
                           </div>
                         </div>
                     </div>
