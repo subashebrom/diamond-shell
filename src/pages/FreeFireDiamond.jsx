@@ -291,8 +291,28 @@ const FreeFireDiamond = () => {
                 {/* ==== User ID Confirmation Section === */}
                 <div className='lg:w-full lg:grid lg:grid-cols-2 lg:gap-5 mt-8 mb-8 '>
                     {/* === Details Section === */}
-                    <div className='details-box lg:w-full border border-gray-700 flex items-center justify-center'>
-                        <h1 className='text-center'>Details</h1>
+                    <div className='userSection lg:min-h-[500px] lg:max-h-[500px] lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
+                        {/* === Rules And Conditions === */}
+                        <div className='rulesBtn border border-gray-400 mt-2'>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>Payments</button>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>Payments</button>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>Rules</button>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>Discription</button>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>TopUp</button>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>Reviews</button>
+                            <button className='detailsBtn px-4 py-2 w-[150px]'>FQAS</button>
+                        </div>
+                        <div className='mt-4 lg:min-h-[380px] overflow-y-auto w-[600px] bg-primarybg'>
+                            {/* === Payments Methode Details === */}
+                          <div className=''>
+                            <h1>Payment Methode</h1>
+                            <p>১<span>*</span> আপনার প্যাকেজ টি নির্বাচন করুন।</p>
+                            <p>২<span>*</span> আপনার গেমের ইউজার আইডি নাম্বার গেম থেকে কপি করে আনুন।</p>
+                            <p>৩<span>*</span> আপনার গেমের ইউজার আইডি নাম্বার পেস্ট করুন।</p>
+                            <p>৪<span>*</span> ইউজার আইডি নাম্বার ঠিক থাকলে পাশে আপনার গেমের নামটি দেখাবে</p>
+
+                          </div>
+                        </div>
                     </div>
                     {/* === Play User ID Section === */}
                     <div className='userSection lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>

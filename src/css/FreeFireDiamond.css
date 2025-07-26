@@ -93,5 +93,23 @@
 }
 /* ==== Order Details Section === */
 .orderCard {
-clip-path: polygon(95% 0, 100% 20%, 100% 100%, 5% 100%, 0 80%, 0 0);
+  clip-path: polygon(95% 0, 100% 20%, 100% 100%, 5% 100%, 0 80%, 0 0);
+}
+.rulesBtn {
+  gap: 10px;
+  height: 90px;
+  display: flex;
+  max-width: 600px ;
+  overflow-x: auto;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #0f1524;
+}
+.detailsBtn {
+  clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+  box-shadow: inset 1px 1px 8px white, inset -1px -1px 8px #00c3ff73;
+}
+.detailsBtn:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 1px 1px 8px green, inset -1px -1px 8px #00c3ff73; 
 }
