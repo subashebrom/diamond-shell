@@ -11,7 +11,7 @@ const CheckOut = () => {
                 {/* ==== User ID Confirmation Section === */}
                 <div className='lg:w-full lg:grid lg:grid-cols-2 lg:gap-5 mt-8 mb-8 '>
                     {/* === Details Section === */}
-                    <div className='userSection lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
+                    <div className='userSection lg:min-h-[550px] lg:max-h-[550px] lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
                         <h2 className='lg:w-full lg:text-xl lg:font-semibold text-center text-white/75'>Your Order Details</h2>
                         {/* === Order Details Section === */}
                         <div className='w-full border border-gray-600 p-1 mb-4 mt-2'>
@@ -61,13 +61,24 @@ const CheckOut = () => {
                             </div>
                         </div>
                     </div>
-                    {/* === Play User ID Section === */}
-                    <div className='userSection lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
+                    {/* === Payment Section === */}
+                    <div className='userSection lg:min-h-[550px] lg:max-h-[550px] lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center py-2 px-2'>
                         <h1 className='lg:w-full lg:text-xl lg:font-semibold text-center text-white/75'>Your Order</h1>
                         {/* === Order Details Section === */}
                         <div className='w-full border border-gray-600 p-1 mb-4'>
-                            <div className='orderCard w-full bg-primarybg p-4'>
-                                
+                            <div className='orderCard w-full bg-primarybg p-4 lg:grid lg:grid-cols-3 gap-2'>
+                                {/* === BKASH === */}
+                                <div className='flex items-center justify-center gap-4 border border-[#E2136E] p-4 rounded-lg bg-gray-300'>
+                                    <img className='size-20' src="/src/assets/image/bkash.png" alt="" />
+                                </div>
+                                {/* === NAGAD === */}
+                                <div className='flex items-center justify-center gap-4 border border-[#ED1C24] p-4 rounded-lg bg-gray-300'>
+                                    <img className='size-20' src="/src/assets/image/nagad.png" alt="" />
+                                </div>
+                                {/* === ROCKET === */}
+                                <div className='flex items-center justify-center gap-4 border border-[#8A288F] p-4 rounded-lg bg-gray-300'>
+                                    <img className='size-20' src="/src/assets/image/rocket.png" alt="" />
+                                </div>
                             </div>
                             <div className='w-full flex items-end justify-end text-end mt-4 mb-4'>
                                 <NavLink to='/check-out' className='buyBtn bg-primarybg lg:text-lg text-white/70 flex items-center justify-center w-30' type='submit'><span className='py-1.5'>Buy Now</span></NavLink>
