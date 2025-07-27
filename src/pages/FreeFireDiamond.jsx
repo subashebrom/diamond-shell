@@ -377,8 +377,8 @@ const FreeFireDiamond = () => {
                                     <h2>Total: <FontAwesomeIcon className='mr-1' icon={faBangladeshiTakaSign}/> 6,200 TK </h2>
                                 </div>
                             </div>
-                            <div className='w-full text-end mt-4 mb-4'>
-                                <button className='buyBtn bg-primarybg px-4 py-1 lg:text-lg text-white/70' type='submit'>Buy Now</button>
+                            <div className='w-full flex items-end justify-end text-end mt-4 mb-4'>
+                                <NavLink to='/check-out' className='buyBtn bg-primarybg lg:text-lg text-white/70 flex items-center justify-center w-30' type='submit'><span className='py-1.5'>Buy Now</span></NavLink>
                             </div>
                         </div>
                     </div>

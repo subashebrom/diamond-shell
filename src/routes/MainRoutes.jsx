@@ -18,6 +18,7 @@ import CallOfDuty from "../pages/CallOfDuty";
 import Valorant from "../pages/Valorant";
 import ApexLegend from "../pages/ApexLegend";
 import FreeFireDiamond from "../pages/FreeFireDiamond";
+import CheckOut from "../pages/CheckOut";
 
 const MainRoutes = createBrowserRouter ([
     {
@@ -95,6 +96,10 @@ const MainRoutes = createBrowserRouter ([
             {
                 path: '/free-fire-daiomond',
                 element: <FreeFireDiamond/>
+            },
+            {
+                path: '/check-out',
+                element: <CheckOut/>
             },
         ]
     }

@@ -127,3 +127,6 @@
   transition: all 0.3s ease-in-out;
   box-shadow: inset 1px 1px 8px green, inset -1px -1px 8px #00c3ff73;
 }
+.orderCardDetails {
+  clip-path: polygon(95% 0, 100% 10%, 100% 100%, 5% 100%, 0 90%, 0 0);
+}
