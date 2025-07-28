@@ -19,6 +19,7 @@ import Valorant from "../pages/Valorant";
 import ApexLegend from "../pages/ApexLegend";
 import FreeFireDiamond from "../pages/FreeFireDiamond";
 import CheckOut from "../pages/CheckOut";
+import VpPoint from "../pages/VpPoint";
 
 const MainRoutes = createBrowserRouter ([
     {
@@ -100,6 +101,10 @@ const MainRoutes = createBrowserRouter ([
             {
                 path: '/check-out',
                 element: <CheckOut/>
+            },
+            {
+                path: '/vp-points',
+                element : <VpPoint/>
             },
         ]
     }

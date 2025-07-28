@@ -11,18 +11,19 @@ const FreeFireDiamond = () => {
                     <div
                     className="w-full text-center hover:text-hoverbdr transition-all duration-400 dealy-75 hover:w-full ease-in-out justify-items-center lg:mb-4"
                     >
-                    <div className="relative mt-2 mb-2 mx-auto cursor-pointer">
-                        <div className="country-triangle-One absolute left-0 top-0"></div>
-                        <div className="country-triangle-two absolute right-0 top-0"></div>
-                        <div className="country-triangle-three absolute left-0 bottom-0"></div>
-                        <div className="country-triangle-four absolute right-0 bottom-0"></div>
-                        <button className="country-BTN bg-btnbg cursor-pointer py-2 flex items-center justify-between px-4">
-                            <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <p>Banladesh</p>
-                            <img className="size-10" src="/src/assets/image/bd-flag.png" alt="" />
-                        </button>
+                        <div className="relative mt-2 mb-2 mx-auto cursor-pointer">
+                            <div className="country-triangle-One absolute left-0 top-0"></div>
+                            <div className="country-triangle-two absolute right-0 top-0"></div>
+                            <div className="country-triangle-three absolute left-0 bottom-0"></div>
+                            <div className="country-triangle-four absolute right-0 bottom-0"></div>
+                            <button className="country-BTN bg-btnbg cursor-pointer py-2 flex items-center justify-between px-4">
+                                <span><FontAwesomeIcon icon={faChevronLeft}/></span>
+                                <p className='text-2xl'>Banladesh</p>
+                                <img className="size-10" src="/src/assets/image/bd-flag.png" alt="" />
+                            </button>
+                        </div>
+                        <h1 className='userInpt bg-pcbg px-4 py-2 text-2xl text-white/70 mb-4'>FREE FIRE DIAMOND TOP-UP BANGLADESH</h1>
                     </div>
-                </div>
                 </NavLink>
                 <div className='lg:w-full lg:grid lg:grid-cols-4 p-2 lg:gap-5 border border-gray-700'>
                     <div className="pt-1">
