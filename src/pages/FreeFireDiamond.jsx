@@ -918,7 +918,7 @@ const FreeFireDiamond = () => {
                     {/* === Details Section === */}
                     <div className='userSection lg:min-h-[500px] lg:max-h-[500px] lg:w-full lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
                         {/* === Rules And Conditions === */}
-                        <div className='rulesBtn border border-gray-400 mt-2'>
+                        <div className='rulesBtn border border-gray-400'>
                             <button className='detailsBtn px-4 py-2 w-[150px]'>Rules</button>
                             <button className='detailsBtn px-4 py-2 w-[150px]'>TopUp</button>
                             <button className='detailsBtn px-4 py-2 w-[150px]'>GameID</button>
@@ -929,27 +929,75 @@ const FreeFireDiamond = () => {
                         </div>
                         <div className='mt-4 lg:min-h-[380px] overflow-y-auto w-[600px] bg-primarybg'>
                             {/* === Payments Methode Details === */}
-                          <h1>Payment Methode (Step 1)</h1>
+                          <h1 className='px-2 mt-4'>Rules: (Step One)</h1>
                           <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
                             <p>১<span>*</span> শুধুমাত্র Bangladesh সার্ভারে Top Up হবে।</p>
-                            <p>২<span>*</span> অর্ডার করার সাথে সাথে ডেলিভারি দেয়া হবে। ব্যতিক্রম বসত নির্ধারিত সম্যের মধ্যে ডেলিভারি না পেলে অনুগ্রহ করে আমাদের Support Center Massage দিবেন।</p>
-                            <p>৩<span>*</span> User ID ভুল দিয়ে (নিজেস্ব ভুলের কারণে) Diamond না পেলে কর্তৃপক্ষ দায় ভার নিবে না।</p>
-                            <p>৪<span>*</span> Order কমপ্লিট হওয়ার পরেও আইডিতে Daimond যায়নি, এ রকম কিছু দাবি করলে, কর্তৃপক্ষ চেক করতে বাধ্য থাকিবে (সত্যতা যাচাই করার জন্য,আপনাকে প্রথমে Game Lobby  বা Diamond Section এর স্ক্রিনশট দিতে বাধ্য থাকিতে হবে, দ্বিতীয়ত Game Profile এর স্ক্রিনশট তৃতীয়ত আপনার Game ID Pass(বাধ্যতামূলক)। আপনি ভুল প্রমানিত হলে কর্তৃপক্ষ আপনার Aginst এ যেকোনো ধরনের Statement নিতে পারে।)</p>
+                            <p>২<span>*</span> অর্ডার করার পূর্বে নিয়মগুলো একবার পড়ার জন্য বিশেষ ভাবে অনুগ্রহ করা হচ্ছে।</p>
+                            <p>৩<span>*</span> Step by step  নিয়মগুলা পড়ে নিবেন।</p>
+                            <p>৪<span>*</span> অর্ডার করার সাথে সাথে ডেলিভারি দেওয়া হবে, ব্যতিক্রম বসত নির্ধারিত সময়ের মধ্যে ডেলিভারি না পেলে অনুগ্রহ করে আমাদের সাপোর্ট সেন্টারে যোগাযোগ করবেন।</p>
+                            <p>৫<span>*</span> User ID ভুল দিয়ে (নিজস্ব ভুলের কারনে) Diamond না পেলে কর্তৃপক্ষ দায় ভার নিবে না।</p>
+                            <p>৬<span>*</span> অর্ডার কমপ্লিট হওয়ার পরেও ID তে Diamond যায়নি এ রকম কিছু দাবি করলে কর্তৃপক্ষ আপনার  ID Check করতে বাধ্য থাকিবে। (সত্যতা যাচাই করার জন্য, আপনাকে প্রথমে Game Lobby বা Diamond Section এর স্ক্রিনশট দিতে বাধ্য থাকিতে হবে, দ্বিতীয়ত Game Profile এর  স্ক্রিনশট , তৃতীয়ত আপনার  Game ID Pass (বাধ্যতামূলক)। আপনি ভুল প্রমাণিত হলে কর্তৃপক্ষ আপনার Aginsg এ যেকোনো ধরনের Statement নিতে পারবে।
+                            </p>
                             <div className='flex w-full items-center justify-between gap-3 mt-2 mb-2'>
                                 <img className='border border-gray-500 size-40 ' src="/src/assets/image/diamond.png" alt="" />
                                 <img className='border border-gray-500 size-40 ' src="/src/assets/image/diamond.png" alt="" />
                                 <img className='border border-gray-500 size-40 ' src="/src/assets/image/diamond.png" alt="" />
                             </div>
-                            <p>৫<span>*</span> সাধারণত ১০ মিনিটের ভিতরে Order Complete করা হয়। সর্বোচ্চ ১ ঘন্টা সময় লাগতে পারে।</p>
-                            <p>৬<span>*</span> ১ ঘন্টার বেশি সময় অতিক্রম হলে Support Team সাথে যোগাযোগ করবেন।</p>
+                            <p>৭<span>*</span> সাধারণত ১০ মিনিটের ভিতরে Order Complete করা হয়। সর্বোচ্চ ১ ঘন্টা সময় লাগতে পারে।</p>
+                            <p>৮<span>*</span> ১ ঘন্টার বেশি সময় অতিক্রম হলে Support Team এর সাথে যোগাযোগ করবেন।</p>
                           </div>
-                          <h1>Rules (Step 8)</h1>
+                          <h1 className='p-3'>Top-Up: (Step Two)</h1>
+                          <h1 className='p-3'>Diamond কিভাবে Top-Up করবো?</h1>
                           <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
-                            <p>১<span>*</span> Buy Now Click করুন ।</p>
-                            <p>২<span>*</span> আপনার Payment Methode টি সিলেক্ট করুন। (বিকাশ, নগদ, রকেট)।</p>
-                            <p>৩<span>*</span> বিকাশ , নগদ অথবা রকেট (এর নাম্বার দিন)।</p>
-                            <p>৪<span>*</span> আপনার পিন কোড টি দিন।</p>
-                            <p>৫<span>*</span> আপনার নাম্বারে OTP Code যাবে তা বসিয়ে দিন বা (Allow করে দিন) ।</p>
+                            <p>১<span>*</span> আপনার পছন্দের প্যাকেজ টি Select করুন।</p>
+                            <p>২<span>*</span> Select করলেই নিচে একটা Option পাবেন যেখানে আপনি চাইলেই আপনার পছন্দকৃত প্যাকেজ টি একের অধিক নিতে পারবেন।</p>
+                          </div>
+                          <h1 className='px-2 mt-2'>Game ID: (Step Three)</h1>
+                          <h1 className='px-2 mt-2'>Game User ID কিভাবে পাবো?</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span> আপনার ডিভাইসে থাকা Free Fire Game টি ওপেন করুন।</p>
+                            <p>২<span>*</span> Profile এ ক্লিক করুন (ঠিক ছবিতে যেভাবে দেওয়া আছে)।</p>
+                            <img src="" alt="" />
+                            <p>৩<span>*</span> আপনার User ID Copy করুন। (ঠিক ছবিতে যেভাবে দেওয়া আছে)।</p>
+                            <img src="" alt="" />
+                          </div>
+                          <h1 className='px-2 mt-2'>User ID Confirmation</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span> আপনার User ID Paste করুন।</p>
+                            <p>২<span>*</span> আপনার User ID Match করলে আপনার Game এর নামটি দেখাবে।</p>
+                            <p>৩<span>*</span> Confirm বাঁটন এ ক্লিক করুন।</p>
+                          </div>
+                          <h1 className='px-2 mt-2'>Payment: (Step Four)</h1>
+                          <h1 className='px-2 mt-2'>বিকাশ Auto Payment</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span> বিকাশ চিহ্নিত করুন</p>
+                            <p>২<span>*</span> বিকাশ নাম্বারটি দিন।</p>
+                            <p>৩<span>*</span> আপনার ফোনে একটি OTP ম্যাসেজ যাবে তা Allow  করে দিন।</p>
+                            <p>৪<span>*</span> আপনার পিন টি দিন।</p>
+                          </div>
+                          <h1 className='px-2 mt-2'>Payment Second Step:</h1>
+                          <h1 className='px-2 mt-2'>Bkash, Nagad, Rocket Personal</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span> আপনার পরিশোধ পদ্ধতিটি চিহ্নিত করুন (বিকাশ, নগদ, রকেট)।</p>
+                            <p>২<span>*</span> বিকাশ, নগদ, রকেট নিচে দেওয়া আমাদের নাম্বারটি Copy করুন।</p>
+                            <p>৩<span>*</span> কপি করা নাম্বারে টাকা সেন্ডমানি করুন।</p>
+                            <p>৪<span>*</span> ট্রান্সজেকশন আইডি টি কপি করে নিন।</p>
+                            <p>৫<span>*</span> আপনি কোন নাম্বার দিয়ে টাকা পাঠিয়েছেন সেটি লিখুন।</p>
+                            <p>৬<span>*</span> কপি করা ট্রান্সজেকশন আইডিটি পেস্ট করে দিন।</p>
+                            <p>৭<span>*</span> Verify Now এ ক্লিক করুন।</p>
+                          </div>
+                          <h1 className='px-2 mt-2'>ওয়ালেট</h1>
+                          <div className='font-HindSiligri text-white/70 lg:text-md p-2'>
+                            <p>১<span>*</span>  Profile এ যান , Select করুন Deposit Money.</p>
+                            <p>২<span>*</span> বিকাশ, নগদ, রকেট চিহ্নিত করুন।</p>
+                            <p>৩<span>*</span> বিকাশ, নগদ, রকেট আমাদের নাম্বারটি Copy করুন।</p>
+                            <p>৪<span>*</span> কপি করা নাম্বারে টা্রুন।সেন্ডমানি করুন।</p>
+                            <p>৫<span>*</span> ট্রান্সজেকশন আইডি টি কপি করে নিন।</p>
+                            <p>৬<span>*</span> আপনি কোন নাম্বার দিয়ে টাকা পাঠিয়েছেন সেটি লিখুন।</p>
+                            <p>৭<span>*</span> কপি করা ট্রান্সজেকশন আইডিটি পেস্ট করে দিন।</p>
+                            <p>৮<span>*</span> Verify Now এ ক্লিক করুন।</p>
+                            <p>৯<span>*</span> ওয়ালেটে টাকা জমা হলে, আপনার প্যাকেজ টি নির্বাচন করুন।</p>
+                            <p>১০<span>*</span> পেমেন্ট এ Wallet Payment Select করুন।</p>
                           </div>
                         </div>
                     </div>

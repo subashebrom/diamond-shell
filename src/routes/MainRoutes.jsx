@@ -20,6 +20,8 @@ import ApexLegend from "../pages/ApexLegend";
 import FreeFireDiamond from "../pages/FreeFireDiamond";
 import CheckOut from "../pages/CheckOut";
 import VpPoint from "../pages/VpPoint";
+import PaymentDetails from "../pages/PaymentDetails";
+import PaymentCheckOut from "../pages/PaymentCheckOut";
 
 const MainRoutes = createBrowserRouter ([
     {
@@ -105,6 +107,14 @@ const MainRoutes = createBrowserRouter ([
             {
                 path: '/vp-points',
                 element : <VpPoint/>
+            },
+            {
+                path : '/payment-details',
+                element : <PaymentDetails/>
+            },
+            {
+                path: '/payment-check-out',
+                element: <PaymentCheckOut/>
             },
         ]
     }
