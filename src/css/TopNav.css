@@ -76,3 +76,9 @@
   clip-path: polygon(100% 100%, 100% 0, 70% 100%);
   visibility: hidden;
 }
+
+@media(max-width : 768px){
+  .mobilevr{
+    display: none;
+  }
+}

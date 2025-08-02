@@ -9,28 +9,28 @@ const CheckOut = () => {
             <section className='lg:w-[1296px] lg:h-auto bg-primarybg border-r border-r-gray-700 border-l border-l-gray-700 mx-auto justify-items-center lg:pt-8 text-white p-2'>
                 <h1 className='text-2xl text-gray-500 font-semibold'>Billing Details</h1>
                 {/* ==== User ID Confirmation Section === */}
-                <div className='lg:w-full flex justify-between lg:gap-5 mt-8 mb-8 '>
+                <div className='billings-details-ff w-full flex justify-between gap-5 mt-8 mb-8 '>
                     {/* === Details Section === */}
-                    <div className='userSection  lg:w-[800px] lg:flex lg:flex-col border border-gray-700 flex items-center justify-between py-2 px-2'>
+                    <div className='userSection  lg:w-[800px] flex flex-col border border-gray-700 items-center justify-between py-2 px-2'>
                         <h2 className='lg:w-full lg:text-xl lg:font-semibold text-center text-white/75'>Your Order Details</h2>
                         {/* === Order Details Section === */}
                         <div className='w-full border border-gray-600 p-1 mb-4 mt-2'>
                             <div className='orderCardDetails w-full bg-primarybg p-4'>
                                 <div className='text-white/70'>
                                     <h1 className='text-md font-semibold'>We Sent You, Your Billing Details WhatsApp Number or Your Email Address</h1>
-                                    <div className='lg:flex lg:flex-col gap-5 mt-3'>
+                                    <div className='flex flex-col gap-5 mt-3'>
                                         <div className='lg:flex lg:flex-col lg:gap-2'>
                                             <p>WhatsApp Number</p>
-                                            <input className='outline-none border border-gray-700 rounded-lg p-2 text-white/70' type="text" placeholder='Enter Your WhatsApp Number' />
+                                            <input className='w-full outline-none border border-gray-700 rounded-lg p-2 text-white/70' type="text" placeholder='Enter Your WhatsApp Number' />
                                         </div>
                                         <div className='lg:flex lg:flex-col lg:gap-2'>
                                             <p>Email Address</p>
-                                            <input className='outline-none border border-gray-700 rounded-lg p-2 ' type="email" placeholder='subashembrom@gmail.com' />
+                                            <input className='w-full outline-none border border-gray-700 rounded-lg p-2 ' type="email" placeholder='subashembrom@gmail.com' />
                                         </div>
                                     </div>
                                 </div>
                                 <hr className='text-gray-700 mt-4' />
-                                <div className='lg:flex lg:items-start lg:justify-between text-white/70 items-center mt-4'>
+                                <div className='flex items-start lg:justify-between text-white/70 mt-4'>
                                     <div className='lg:flex items-center'>
                                         <p>5,000 Diamonds</p>
                                     </div>
@@ -41,7 +41,7 @@ const CheckOut = () => {
                                     </div>
                                 </div>
                                 <hr  className='mt-2 text-gray-700'/>
-                                <div className='lg:flex lg:items-center lg:justify-between text-white/70 mt-2'>
+                                <div className='flex items-center justify-between text-white/70 mt-2'>
                                     <p className='lg:text-md'> <FontAwesomeIcon className='mr-1' icon={faBangladeshiTakaSign}/>3,100 tk</p>
                                     <div className='relative flex lg:gap-2'>
                                         <p>2X</p>
@@ -55,7 +55,7 @@ const CheckOut = () => {
                                 <div className='text-end text-white/70 mt-2'>
                                     <h2>Total: <FontAwesomeIcon className='mr-1' icon={faBangladeshiTakaSign}/> 6,200 TK </h2>
                                 </div>
-                                <div className='w-[50%] lg:flex lg:flex-col mx-auto mt-4'>
+                                <div className='agrrement-ff w-[50%] flex flex-col mx-auto mt-4'>
                                     <div className='space-x-2'>
                                         <input className='accent-blue-400' name='yes' id='remember' type="checkbox" />
                                         <label htmlFor="remember">Remember me</label>
@@ -76,7 +76,7 @@ const CheckOut = () => {
                         </div>
                     </div>
                     {/* === Payment Section === */}
-                    <div className='userSection h-fit lg:w-[496px] lg:flex lg:flex-col border border-gray-700 flex items-center py-2 px-2'>
+                    <div className='userSection h-fit lg:w-[496px] flex flex-col border border-gray-700  items-center py-2 px-2'>
                         <h1 className='lg:w-full lg:text-xl lg:font-semibold text-center text-white/75'>Your Order</h1>
                         {/* === Order Details Section === */}
                         <div className='w-full border border-gray-600 p-1 mb-4 mt-2'>

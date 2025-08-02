@@ -131,3 +131,43 @@
 .orderCardDetails {
   clip-path: polygon(95% 0, 100% 10%, 100% 100%, 5% 100%, 0 90%, 0 0);
 }
+@media (max-width: 768px) {
+  .diamond-first-box {
+    width: 360px;
+  }
+  .diamond-second-box {
+    width: 350px;
+  }
+  .diamond-third-box {
+    width: 350px;
+  }
+  .ffdiamondsh {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .rules-payment-details{
+    width: 100%;
+  }
+  .rules-detialsff {
+    max-width: 380px;
+  }
+  .rulesBtn {
+    max-width: 370px;
+  }
+  .ruls-des-ff {
+    max-width: 380px;
+  }
+  .uid-identification {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .userSection{
+    margin-top: 30px;
+  }
+  .billings-details-ff{
+    display: grid;
+  }
+  .agrrement-ff{
+    width: 100%;
+  }
+}

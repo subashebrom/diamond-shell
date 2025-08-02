@@ -1,0 +1,7 @@
+@media(max-width: 768px){
+    .mobileshbtm{
+        display: grid;
+        grid-template-columns: auto;
+        display: none;
+    }
+}

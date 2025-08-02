@@ -20,8 +20,8 @@ const FreeFire = () => {
                 </div>
                 </NavLink>
                 {/* === Card Section === */}
-                <div className="w-full px-4 py-4 lg:grid lg:grid-cols-4 gap-6 text-white">
-                    <NavLink to='/free-fire-daiomond'
+                <div className="mobilesh w-full px-4 py-4 lg:grid lg:grid-cols-4 gap-6 text-white">
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -42,8 +42,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                    <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -64,8 +64,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                                        <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -86,8 +86,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                    <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -108,8 +108,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                    <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -130,8 +130,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                    <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -152,8 +152,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                    <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -174,8 +174,8 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
-                    <NavLink to=''
+                    </div>
+                    <div
                         className="card relative w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
@@ -196,7 +196,7 @@ const FreeFire = () => {
                         <div className="absolute top-30 w-full flex items-center justify-center bg-white/60 text-[#2b3550] font-semibold text-lg">
                             <h2>Coming Soon</h2>
                         </div>
-                    </NavLink>
+                    </div>
                 </div>
             </section>
         </div>

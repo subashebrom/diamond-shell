@@ -97,7 +97,7 @@ const MainRoutes = createBrowserRouter ([
                 element: <ApexLegend/>
             },
             {
-                path: '/free-fire-daiomond',
+                path: '/free-fire-diamond',
                 element: <FreeFireDiamond/>
             },
             {

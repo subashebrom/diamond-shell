@@ -12,7 +12,7 @@
     0 16%
   );
 }
-.card:hover{
+.card:hover {
   border: 8px solid #00c3ff73;
 }
 img {
@@ -98,4 +98,19 @@ img {
 }
 .home-search-second-box:hover {
   background-color: #00c3ff73;
+}
+@media (max-width: 768px) {
+  .home-search-first-box {
+    width: 350px;
+  }
+  .home-search-second-box {
+    width: 340px;
+  }
+  .home-search-box {
+    width: 330px;
+  }
+  .mobilesh{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

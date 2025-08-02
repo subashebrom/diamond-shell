@@ -3,10 +3,11 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router";
+import  "../css/Footer.css"
 
 const Bottom = () => {
     return (
-        <div className="w-full h-auto text-white bg-mainbg font-Ubuntu">
+        <div className="mobileshbtm w-full h-auto text-white bg-mainbg font-Ubuntu">
             <footer className="relative w-[1296px] mx-auto border-r border-r-gray-700 border-l border-l-gray-700 px-8 border-t border-t-gray-700 py-12">
                 {/* === DIAMOND === */}
                 <div className="absolute -top-10 -right-5 size-10 z-80">
@@ -15,7 +16,7 @@ const Bottom = () => {
                 <div className="absolute -top-10 -left-5 size-10 z-80">
                     <img src="/image/diamond.png" alt="" />
                 </div>
-                <section className="lg:grid lg:grid-cols-4 items-start">
+                <section className=" lg:grid lg:grid-cols-4  items-start">
                     {/* === Logo Section === */}
                     <div>
                         <h1 className="lg:text-xl">Logo image</h1>

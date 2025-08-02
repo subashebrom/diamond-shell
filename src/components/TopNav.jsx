@@ -3,8 +3,8 @@ import "../css/TopNav.css"
 
 const TopNav = () => {
     return (
-        <div className='fixed top-0 lg:w-full bg-mainbg font-Ubuntu border-b border-b-gray-700 z-10'>
-            <div className='lg:flex lg:w-[1296px] topactiveBtn relative mx-auto flex items-center justify-between border-r border-r-gray-700 border-l border-l-gray-700 py-2 px-8'>
+        <div className='fixed top-0 lg:w-full bg-mainbg font-Ubuntu border-b border-b-gray-700 z-10 '>
+            <div className='mobilevr lg:flex lg:w-[1296px]  topactiveBtn relative mx-auto flex items-center justify-between border-r border-r-gray-700 border-l border-l-gray-700 py-2 px-8'>
                 {/* === DIAMOND === */}
                 <div className="absolute bottom-0 -right-5 size-10 z-80">
                     <img src="/image/diamond.png" alt="" />
@@ -19,7 +19,7 @@ const TopNav = () => {
                     </NavLink>
                 </div>
                 <div className='lg:flex text-white lg:gap-8'>
-                    <div className="top-btn">
+                    <div className="top-bt">
                         <NavLink to='/' className={({isActive}) =>
                             `group transition-all duration-150 delay-75 ease-in-out lg:text-lg active-btn px-4 flex items-center justify-center${
                                 isActive
