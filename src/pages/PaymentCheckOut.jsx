@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../css/FreeFireDiamond.css";
 import { NavLink } from 'react-router';
+import {  faCircleDot } from '@fortawesome/free-solid-svg-icons';
 
 const PaymentCheckOut = () => {
     return (
@@ -10,25 +11,43 @@ const PaymentCheckOut = () => {
                 {/* ==== User ID Confirmation Section === */}
                 <div className='lg:w-full flex items-center justify-between lg:gap-5 mt-8 mb-8 '>
                     {/* === Details Section === */}
-                    <div className='userSection lg:flex lg:flex-col border border-gray-700 mx-auto py-2 px-2'>
+                    <div className='userSection lg:w-100 lg:flex lg:flex-col border border-gray-700 mx-auto py-2 px-2 mt-4 mb-4'>
                         <h2 className='lg:w-full lg:text-xl lg:font-semibold text-center text-white/75'>Payment Methods</h2>
                         {/* === Order Details Section === */}
                         <div className='w-full border border-gray-600 p-1 mb-4 mt-2'>
                             <div className='orderCardDetails w-full bg-primarybg p-4'>
-                                <div className='text-white/70'>
+                                <div className='text-white/70 space-y-3 pb-2'>
                                     <div className='w-36 h-16 bg-white/70 flex items-center justify-center mx-auto rounded-md mt-2'>
                                         <img className='object-cover' src="/src/assets/image/bkash.png" alt="" />
                                     </div>
                                     <div className='space-y-1'>
                                         <h1>Transaction ID</h1>
-                                        <input className='focus:border-sky-500 bg-pcbg outline-none p-2 rounded border border-[#E2136E]' type="text" />
+                                        <input className='w-full focus:border-sky-500 bg-pcbg outline-none p-2 rounded border border-[#E2136E]' type="text" placeholder='Transaction ID' />
+                                    </div>
+                                    <div className='space-y-1'>
+                                        <h1>Phone Number</h1>
+                                        <input className='w-full focus:border-sky-500 bg-pcbg outline-none p-2 rounded border border-[#E2136E]' type="text" placeholder='Phone Number' />
+                                    </div>
+                                    <div className='space-y-1'>
+                                        <h1>Amount</h1>
+                                        <input className='w-full focus:border-sky-500 bg-pcbg outline-none p-2 rounded border border-[#E2136E]' type="text" placeholder='Amount' />
                                     </div>
                                 </div>
                             </div>
-                            <div className='w-full flex items-end justify-end text-end mt-4 mb-4'>
-                                <NavLink to='/payment-check-out' className='buyBtn bg-primarybg lg:text-lg text-white/70 flex items-center justify-center w-30' type='submit'><span className='py-1.5'>Confirm</span></NavLink>
+                        </div>
+                        <div className='w-full border border-gray-600 p-1 mb-4 mt-2'>
+                            <div className='orderCardDetails w-full bg-primarybg p-4 space-y-3'>
+                                <p className=''> <FontAwesomeIcon icon={faCircleDot}/> *247# ডায়াল করে আপনার bKash মোবাইল মেনুতে যান অথবা অ্যাপে যান।</p>
+                                <p className=''> <FontAwesomeIcon icon={faCircleDot}/> Send Money - এ ক্লিক করুন।</p>
+                                <p className=''> <FontAwesomeIcon icon={faCircleDot}/> প্রাপক নম্বর হিসেবে নিচের এই নম্বরটি লিখুন</p>
+                                <p className=''> 01315291293</p>
+                                <p className=''> <FontAwesomeIcon icon={faCircleDot}/>  নিশ্চিত করতে এখন আপনার bKash মোবাইল মেনু পিন লিখুন।</p>
+                                <p className=''> <FontAwesomeIcon icon={faCircleDot}/>  এরপর উপরের বক্সে আপনার Transaction ID এবং Amount দিন আর নিচের VERIFY বাটনে ক্লিক করুন।</p>
                             </div>
                         </div>
+                            <div className='w-full flex items-end justify-end text-end mt-4 mb-6'>
+                                <NavLink to='/payment-check-out' className=' bg-primarybg lg:text-lg text-white/70 flex items-center justify-center w-full' type='submit'><span className='py-1.5'>Confirm</span></NavLink>
+                            </div>
                     </div>
                 </div>
             </section>
