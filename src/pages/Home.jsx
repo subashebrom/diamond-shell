@@ -25,7 +25,7 @@ const Home = () => {
                         className="card w-full  text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
                         >
                         <img className="w-full h-62 object-cover" src="/src/assets/image/free-fire.jpg" alt="" />
-                        {<div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
+                        <div className="relative mt-2 mb-2 w-62 mx-auto cursor-pointer">
                             <div className="triangle absolute left-0 top-0"></div>
                             <div className="triangle-two absolute right-0 top-0"></div>
                             <div className="triangle-three absolute left-0 bottom-0"></div>
@@ -33,7 +33,7 @@ const Home = () => {
                             <button className="card-btn w-60 bg-btnbg cursor-pointer">
                                 <h2 className="py-2">FREE FIRE</h2>
                             </button>
-                        </div>}
+                        </div>
                     </div>
                     <div
                         className="card w-full text-center hover:text-hoverbdr hover:scale-105 transition-all duration-400 dealy-75 hover:w-full ease-in-out"
